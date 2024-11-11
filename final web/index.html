@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+  </head>
+  <body class="bg-light text-dark">
+    <header
+      class="row align-items-center py-3 text-light"
+      style="width: 100%; margin: 0; background-color: #800000">
+      <div class="col-6 d-flex align-items-center">
+        <button class="btn btn-outline-light d-md-none me-2" id="sidebarToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <h1 class="h4 m-0">NEWS</h1>
+      </div>
+      <div class="col-6 text-end">
+        <button class="btn btn-outline-light" id="toggleMode">
+          <i class="fa-solid fa-sun"></i> Light Mode
+        </button>
+        <button class="btn btn-outline-light ms-2" id="breakingNewsBtn">
+          <i class="fas fa-bullhorn"></i> Breaking News
+        </button>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-lg-2 sidebar py-3" id="sidebar">
+          <h5 class="mb-3 px-3">Categories</h5>
+          <div id="categoryList" class="d-flex flex-column gap-1 px-2">
+          </div>
+        </div>
+
+        <main class="col-md-9 col-lg-10 px-4 py-3">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 id="currentCategory">All News</h4>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle sort-dropdown"
+                type="button"
+                id="sortDropdown"
+                data-bs-toggle="dropdown">
+                Sort By: Recent
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" data-sort="date"
+                    >Most Recent</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" data-sort="views"
+                    >Most Viewed</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" data-sort="wordCount"
+                    >Longest Articles</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            id="newsContent"
+            class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="articleModal"
+      tabindex="-1"
+      aria-labelledby="articleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="articleModalLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="articleModalContent">
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <small class="text-muted" id="articleModalViews"></small>
+              <small class="text-muted ms-3" id="articleModalReadTime"></small>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="breakingNewsModal"
+      tabindex="-1"
+      aria-labelledby="breakingNewsModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="breakingNewsModalLabel">
+              Breaking News
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="breakingNewsContent">
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 text-center mb-4">
+            <h5 class="fw-bold mb-3">Contact Us</h5>
+            <p>Phone: <span>87785549087</span></p>
+            <p>Email: <span>abc@gmail.com</span></p>
+            <p>Address: <span>Kazakhstan, Astana</span></p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p class="mb-0">&copy; 2024 Best girls of IT-2304 & Timur - AITU</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

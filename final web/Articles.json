@@ -1,0 +1,104 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "New Study Reveals Surprising Health Benefits of Coffee",
+      "date": "2024-10-15",
+      "category": "Health",
+      "img": "1.jpg",
+      "content": "A new study published this week has found that drinking coffee may have numerous health benefits. The study, conducted over ten years, tracked the health outcomes of 10,000 participants who consumed coffee regularly...",
+      "views": 150,
+      "wordCount": 500
+    },
+    {
+      "id": 2,
+      "title": "Tech Giants Announce Collaboration on AI Safety Standards",
+      "date": "2024-11-01",
+      "category": "Technology",
+      "img": "2.jpg",
+      "content": "In a groundbreaking move, several major tech companies have come together to develop common standards for artificial intelligence safety. This collaboration aims to address ethical and security concerns around the rapid development of AI...",
+      "views": 399,
+      "wordCount": 650
+    },
+    {
+      "id": 3,
+      "title": "Local Art Fair Brings Creativity to the Community",
+      "date": "2024-09-22",
+      "category": "Arts",
+      "img": "3.jpg",
+      "content": "This year’s local art fair saw a record attendance as artists and creators gathered to display their works. From paintings to sculptures and everything in between, the fair offered a vibrant display of community creativity...",
+      "views": 85,
+      "wordCount": 400
+    },
+    {
+      "id": 4,
+      "title": "Experts Predict Economic Trends for 2025",
+      "date": "2024-10-05",
+      "category": "Finance",
+      "img": "4.jpg",
+      "content": "With 2025 on the horizon, financial experts have released their predictions for economic trends that may shape the upcoming year. Topics range from inflation rates and job markets to the potential impact of technological advancements...",
+      "views": 220,
+      "wordCount": 700
+    },
+    {
+      "id": 5,
+      "title": "Climate Change and the Future of Renewable Energy",
+      "date": "2024-11-02",
+      "category": "Environment",
+      "img": "5.jpg",
+      "content": "As climate change continues to be a pressing global issue, renewable energy sources are becoming increasingly important. Experts believe that the shift to renewable energy could not only mitigate environmental impacts but also drive economic growth...",
+      "views": 400,
+      "wordCount": 800
+    },
+    {
+      "id": 6,
+      "title": "Breakthroughs in Cancer Research Offer New Hope",
+      "date": "2024-08-30",
+      "category": "Health",
+      "img": "6.jpg",
+      "content": "Recent breakthroughs in cancer research have led to promising new treatments that may improve survival rates for several types of cancer. Researchers are optimistic about these advancements, though caution that more studies are needed...",
+      "views": 130,
+      "wordCount": 550
+    },
+    {
+      "id": 7,
+      "title": "Guide to Traveling on a Budget in 2025",
+      "date": "2024-10-20",
+      "category": "Travel",
+      "img": "7.jpg",
+      "content": "With travel becoming more accessible post-pandemic, many people are looking for ways to explore the world on a budget. From tips on finding affordable accommodations to advice on saving money on flights, this guide is perfect for travel enthusiasts...",
+      "views": 90,
+      "wordCount": 450
+    },
+    {
+      "id": 8,
+      "title": "The Rise of Electric Vehicles in the Automotive Industry",
+      "date": "2024-09-15",
+      "category": "Automotive",
+      "img": "8.jpg",
+      "content": "Electric vehicles are gaining popularity worldwide as consumers seek eco-friendly alternatives to traditional gasoline-powered cars. Automakers are racing to meet this demand by introducing a variety of new electric models to the market...",
+      "views": 250,
+      "wordCount": 600
+    },
+    {
+      "id": 9,
+      "title": "How Meditation Can Improve Mental Health",
+      "date": "2024-11-04",
+      "category": "Health",
+      "img": "9.jpg",
+      "content": "In a fast-paced world, meditation is increasingly recognized as a powerful tool for managing stress and improving mental health. Studies suggest that regular meditation can lead to reduced anxiety, better focus, and improved emotional regulation...",
+      "views": 175,
+      "wordCount": 500
+    },
+    {
+      "id": 10,
+      "title": "The Impact of Social Media on Modern Relationships",
+      "date": "2024-10-12",
+      "category": "Society",
+      "img": "10.jpg",
+      "content": "Social media has changed the way people connect, but what impact does it have on relationships? Experts say that while social media can strengthen bonds, it can also create misunderstandings and increase anxiety among users...",
+      "views": 205,
+      "wordCount": 550
+    }
+  ]
+}
